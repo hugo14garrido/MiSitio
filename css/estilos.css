@@ -80,6 +80,10 @@ body{
 	position: relative;
 	top: -127px;
 }
+.right1{
+	float: right;
+	position: relative;
+}
 .left{
 	float: left;
 	position: relative;
@@ -161,4 +165,7 @@ td{
 table, th, td{
 	border: 1px solid #273b47;
 	border-collapse
+}
+.contenedor .button a{
+	
 }
