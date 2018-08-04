@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Mi Sitio Web</title>
+		<link href="css/estilos.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+	</head>
+	<body>
+		<div class = "portada">
+		<header id="header" class= "contenedor header">
+			<figure class ="logo">
+				<img src= "imagenes/logo.png" alt="Logo HugoG">
+			</figure>
+			<nav class = "menu">
+				<ul>
+					<li><a href="index.html">Home</li>
+					<li><a href="index.html#skills">Skills</a></li>
+					<li><a href="#footer">Contact</a></li>
+					<li><a href="#bibliografia">Bibliografia</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="portada" >
+			<div class="contenedor">
+				<h1 class="titulo">Hugo Garrido</h1>
+				<h2 class="titulo-a">Desarrollo de Aplicaciones</h2>
+				<button class="button">Bibliografìa</button>
+			</div>
+		</section>
+		</div>
+		<section class = "table" id="bibliografia" >
+			<div class="contenedor">
+				<table>
+					<thead>
+						<tr>
+							<th>Item</th>
+							<th>Año</th>
+							<th>Descripciòn</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Item 1</td>
+							<td>2000</td>
+							<td>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</td>
+						</tr>
+						<tr>
+							<td>Item 2</td>
+							<td>2004</td>
+							<td>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</td>
+						</tr>
+						<tr>
+							<td>Item 3</td>
+							<td>2010</td>
+							<td>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+		<footer id="footer"class = "footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src = "imagenes/logo.png" width="200px" alt = "Logo">
+					<a href = "tel:+50241494162">
+						<strong>Telefono</strong>
+						<span>+50241494162</span>
+					</a>
+					<a href = "mailto:hagc@galileo.edu">
+						<strong>Email</strong>
+						<span>hagc@galileo.edu</span>
+					</a>
+				</div>
+				<form class = "formulario">
+					<div class = "col1">
+						<div >
+							<label for = "nombre">Nombre</label>
+							<input type = "text" id ="nombre" name="nombre" required/>
+							<label for= "email"> Email </label>
+							<input type= "email" name = "email" id = "email" required/>
+						</div>
+						<div class = "perfil">
+							<label for = "junior">
+								<input type = "radio" name = "perfil" id = "junior" value = "junior" checked /> Junior
+							</label>
+							<label for = "senior">
+								<input type = "radio" name = "perfil" id = "senior" value = "senior" /> Senior
+							</label>
+						</div>
+						<div class= "intereses">
+							<label for = "c#">
+								<input type = "checkbox" name = "intereses" id = "c#" value = "c#" /> C#
+							</label>
+							<label for = "vb">
+								<input type = "checkbox" name = "intereses" id = "vb" value = "vb" /> Visual Basic
+							</label>
+							<label for = "java">
+								<input type = "checkbox" name = "intereses" id = "java" value = "java" /> Java
+							</label>
+							<label for = "sql">
+								<input type = "checkbox" name = "intereses" id = "sql" value = "sql" /> SQL
+							</label>
+						</div>
+					</div>
+					<div class = "col2">
+						<label for = "comentario">Comentarios</label>
+						<textarea name="comentario" id = "comentario" cols = "30" rows= "10"></textarea>
+						<input type="submit" value="Enviar" class="button"/>
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
